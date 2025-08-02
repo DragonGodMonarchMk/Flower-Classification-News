@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flower-classification-api
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python Api_KaggleDataset.py
